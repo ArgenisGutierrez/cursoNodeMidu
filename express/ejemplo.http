@@ -1,0 +1,17 @@
+### GET
+GET http://localhost:3000/pokemon/ditto
+##prueba pokeapi
+GET https://pokeapi.co/api/v2/pokemon/ditto
+##GET not found
+GET http://localhost:3000/pokemon/dit
+##Post
+POST http://localhost:3000/pokemon/add
+Content-Type: application/json
+
+{
+  "name":"dito",
+  "type":"normal",
+  "moves":[
+    "transform"
+  ]
+}
